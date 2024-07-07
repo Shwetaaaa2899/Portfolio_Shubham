@@ -1,0 +1,37 @@
+.pdf-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+    padding:0;
+/* height:30vh; */
+
+
+}
+
+.resume{
+    /* box-shadow: 4px 3px 8px 1px #969696; */
+    margin-bottom: 50px;
+}
+.resume button {
+    display: flex;
+    flex-direction: row;
+    row-gap:5px;
+    justify-content: space-between;
+    padding:10px;
+    border-radius: 10%;
+    margin-left: 50%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    background-color: gray;
+
+}
+.resume button:hover{
+    cursor: pointer;
+}
+.resume .download-icon{
+    margin-left: 10px;
+}

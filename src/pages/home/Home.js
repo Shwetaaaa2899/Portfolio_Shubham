@@ -1,5 +1,10 @@
 import "./Home.css"
+import { FaReact } from "react-icons/fa";
 import Hero from "../../images/Hero.jpg"
+import { AiOutlineDotNet } from "react-icons/ai";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaJava } from "react-icons/fa";
+import { DiMysql } from "react-icons/di";
 const Home = () => {
   return (
     <main>
@@ -19,15 +24,24 @@ const Home = () => {
       {/* intro section */}
       <div className="hero-main">
       <h3>LET ME INTRODUCE MYSELF.</h3>
-      <p>  My name is Shubham Karmokar. I’m a frontend software engineer  in Mumbai
+      <p>  My name is Shubham Karmokar. I’m a frontend software engineer  from Mumbai.<br/>
 
 
-My work currently consists of a full time engineering role at Tata Consultancy Services . I find this balancing act to be super resourceful in terms my learning as a web developer, as well as for keeping up with the rapid expansion of developer tools, libraries, frameworks, etc.
+My work currently consists of a full time engineering role at Tata Consultancy Services .<br/>
+I have a total of 3+ years of Industrial Experience as a full time System engineer in TCS.<br/>
+<div className="tech">
+<FaReact size="30" /> 
+<AiOutlineDotNet size="30"  /> 
+<IoLogoJavascript size="30"  />
+<FaJava size="30"  />
+<DiMysql size="30"  />
 
-My freelance web development roots are in Wordpress & Shopify, of which I'm self taught. In 2017, I started at UCLA to broaden my knowledge of the Node.js ecosystem. Since then, I fell in love with & have been primarily using React & Redux in web applications. For static sites, I love using Gatsby for creating blazing fast, SEO-driven headless frontend user interfaces.
 
-Whether you're a business owner looking to get started on a app or web development project with a freelance web developer, a developer looking to collaborate on something cool, or just wanting to say hi, shoot me a message and let's work together.</p>
-        </div>
+
+</div>
+
+</p>
+  </div>
     </main>
   );
 };

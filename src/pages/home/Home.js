@@ -5,6 +5,7 @@ import { AiOutlineDotNet } from "react-icons/ai";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaJava } from "react-icons/fa";
 import { DiMysql } from "react-icons/di";
+import { SiTcs } from "react-icons/si";
 const Home = () => {
   return (
     <main>

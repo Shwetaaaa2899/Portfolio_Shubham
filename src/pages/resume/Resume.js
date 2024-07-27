@@ -3,7 +3,7 @@ import { MdFileDownload } from "react-icons/md";
 import React, { useState, useEffect } from "react";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "./Resume.css";
-import pdf from "./resume.pdf";
+import pdf2 from "./resume.pdf";
 
 const Resume = () => {
   const [width, setWidth] = useState(1200);
@@ -17,13 +17,13 @@ const Resume = () => {
   }, []);
 
   const handleDownload = () => {
-    window.open(pdf, "_blank");
+    window.open(pdf2, "_blank");
   };
 
   return (
     <div className="resume">
       <div className="pdf-container">
-        <Document file={pdf} className="document">
+        <Document file={pdf2} className="document">
           <Page
             pageNumber={1}
             scale={width > 786 ? 1.7 : 0.6}

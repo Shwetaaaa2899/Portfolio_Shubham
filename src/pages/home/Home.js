@@ -12,7 +12,7 @@ const Home = () => {
       <div className="flex-row">
         <div  className="flex-child-hero">
           Hi There !<p>I'M Shubham Karmokar</p>
-          <span>SOftware/FrontEnd Developer</span>
+          <span>Software/FrontEnd Developer</span>
         </div>
 
         <div className="flex-child">

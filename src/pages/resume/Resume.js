@@ -7,7 +7,6 @@ import "./Resume.css";
 const pdf2 = "/resume.pdf";
 const Resume = () => {
   const [width, setWidth] = useState(1200);
-
   useEffect(() => {
     const handleResize = () => {
       setWidth(window.innerWidth);
@@ -17,13 +16,13 @@ const Resume = () => {
   }, []);
 
   const handleDownload = () => {
-    window.open(pdf2, "_blank");
+    window.open("https://drive.google.com/file/d/1flIeaj2vvvPssJLP0qw4R7TWYIdtzdmP/view?usp=drive_link", "_blank");
   };
 
   return (
     <div className="resume">
       <div className="pdf-container">
-        <Document file={pdf2} className="document">
+        <Document file="https://drive.google.com/file/d/1flIeaj2vvvPssJLP0qw4R7TWYIdtzdmP/view?usp=drive_link" className="document">
           <Page
             pageNumber={1}
             scale={width > 786 ? 1.7 : 0.6}

@@ -3,7 +3,7 @@ import { MdFileDownload } from "react-icons/md";
 import React, { useState, useEffect } from "react";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "./Resume.css";
-import pdf2 from "./resume.pdf";
+import pdf2 from "../../resume.pdf";
 
 const Resume = () => {
   const [width, setWidth] = useState(1200);
